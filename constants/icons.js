@@ -1,0 +1,10 @@
+export const airplay = require('../assets/icons/airplay.png');
+export const home = require('../assets/icons/home.png');
+export const left_arrow = require('../assets/icons/left-arrow.png');
+export const play = require('../assets/icons/play.png');
+export const play_button = require('../assets/icons/play-button.png');
+export const profile = require('../assets/icons/profile.png');
+export const right_arrow = require('../assets/icons/right-arrow.png');
+export const search = require('../assets/icons/search.png');
+export const star = require('../assets/icons/star.png');
+export const upload = require('../assets/icons/upload.png');
