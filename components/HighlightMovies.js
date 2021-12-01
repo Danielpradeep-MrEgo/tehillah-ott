@@ -66,6 +66,7 @@ const HighlightMovies = () => {
           justifyContent: 'center',
         }}>
         {data.map((item, index) => {
+
           const opacity = dotPosition.interpolate({
             inputRange: [index - 1, index, index + 1],
             outputRange: [0.3, 1, 0.3],
@@ -135,11 +136,11 @@ const HighlightMovies = () => {
                   source={{uri: item.thumbnail}}
                   resizeMode="cover"
                   style={{
-                    width: SIZES.width * 0.85,
-                    height: (SIZES.height * 0.85) / 2,
+                    width: SIZES.width * 0.95,
+                    height: (SIZES.height * 0.85) / 3,
                     justifyContent: 'flex-end',
                   }}
-                  imageStyle={{borderRadius: 40}}>
+                  imageStyle={{borderRadius: 15}}>
                   <View
                     style={{
                       flexDirection: 'row',

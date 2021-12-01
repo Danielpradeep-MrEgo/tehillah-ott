@@ -78,7 +78,7 @@ const App: () => Node = () => {
           initialRouteName={'Home'}>
           <Stack.Screen name="Home" component={Tabs} />
 
-          <Stack.Screen name="MovieDetail" component={MovieDetail} />
+          <Stack.Screen name="MovieDetails" component={MovieDetail} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
